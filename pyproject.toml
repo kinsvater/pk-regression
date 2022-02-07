@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pk-regression"
+version = "0.1.0"
+description = ""
+authors = ["Paul Kinsvater <paul.kinsvater@jci.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.4.0"
+workalendar = "^16.2.0"
+patsy = "^0.5.2"
+scipy = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
